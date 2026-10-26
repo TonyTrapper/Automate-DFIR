@@ -1,0 +1,19 @@
+{
+  "security_snapshot": {
+    "Hostname": "LAB-DFIR01",
+    "CollectedUTC": "2026-10-20T10:00:00Z",
+    "AutoAdminLogon": 1,
+    "HasDefaultPasswordProperty": false,
+    "Firewall": [
+      {"Name": "Domain", "Enabled": true},
+      {"Name": "Private", "Enabled": false},
+      {"Name": "Public", "Enabled": true}
+    ],
+    "Defender": {
+      "RealTimeProtectionEnabled": true,
+      "ExclusionPath": ["C:\\Lab\\Testing"],
+      "ExclusionProcess": [],
+      "ExclusionExtension": []
+    }
+  }
+}
